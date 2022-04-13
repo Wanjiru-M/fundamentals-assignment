@@ -1,0 +1,102 @@
+body{
+    background-color: white;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: auto;
+    font-family: calibri;
+}
+
+/* Add animation to "page content" */
+.animate-bottom {
+    position: relative;
+    -webkit-animation-name: animatebottom;
+    -webkit-animation-duration: 1s;
+    animation-name: animatebottom;
+    animation-duration: 3s
+  }
+  
+  @-webkit-keyframes animatebottom {
+    from { bottom:-100px; opacity:0 } 
+    to { bottom:0px; opacity:1 }
+  }
+  
+  @keyframes animatebottom { 
+    from{ bottom:-100px; opacity:0 } 
+    to{ bottom:0; opacity:1 }
+  }
+  /* end animation to "page content" */
+.logo{
+    display: inline;
+    width: 70px;
+    height: 70px;
+}
+.MenuItems:hover{
+    color:black;
+}
+.MenuItems{
+    float: right;
+    text-decoration: none;
+    color: white;
+    margin: 20px;
+}
+.logo1{
+    display: inline;
+    width: 70px;
+    height: 70px;
+}
+.booking-form-container{
+    max-width: 700px;
+    text-align: center;
+    background: rgba(211, 211, 211, 0.5);
+    box-sizing: border-box;
+    margin-left: 250px;
+}
+.heading{
+    float: right;
+}
+.bookingform{
+    position: relative;
+    text-align: center;
+}
+.background{
+    justify-content: center;
+    display: flex;
+    position: relative;
+}
+
+ 
+.table{
+    justify-content: center;
+    display: flex;
+    position: relative;
+  }
+  .mytable{
+    position: relative;
+  }
+  
+  td, th {
+    border: 1px solid  darkcyan;;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: lavender;
+  }
+footer {
+    position: fixed;
+	width: 100%;
+	left: 0%;
+	bottom: 0%;
+	background-color:yellow;
+    text-align: center;
+}
+a:hover{
+  color: grey;
+}
+a{
+  text-decoration: none;
+  color: black;
+}

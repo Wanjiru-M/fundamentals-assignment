@@ -1,0 +1,46 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-image: ;
+}
+nav ul{
+    float: right;
+    font-size: 14;
+}
+nav ul li{
+    float: right;
+    list-style: none;
+    position: relative;
+
+}
+nav ul li a{
+    display: block;
+    font-family: arial;
+    color: #222;
+    font-size: 24px;
+    padding: 24px;
+     text-decoration: none;
+}
+nav ul li ul{
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    padding: 3px;
+
+}
+nav ul li:hover ul{
+    display: block;
+    
+
+}
+nav ul li ul li {
+    width: 180px;
+  }
+nav ul li ul li a{
+  padding:2px;
+}
+av ul li ul li a:hover{
+    background-color: red;
+  }
